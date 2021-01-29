@@ -225,27 +225,17 @@ section {
 .text-right {
   text-align: right;
 }
-.section-title {
-  font-size: 55px;
-  display: inline-block;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-bottom: 35 px;
-  color: #024e76;
-}
 
 /* REACH OUT STYLES START */
- .contact {
+.contact {
   text-align: center;
   background: #024e76;
 }
+
 .contact h2 {
   color: #fce138;
 }
-.contact-info ifram {
-  width: 400px;
-  height: 400px;
-}
+
 .contact-info iframe {
   width: 400px;
   height: 400px;
@@ -259,12 +249,14 @@ section {
   margin: 30px 0 0 60px;
   color: white;
 }
+
 .contact-info h3 {
   color: #fce138;
   font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p,
+.contact-info address {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 20px;
@@ -276,31 +268,3 @@ section {
 }
 
 /* REACH OUT STYLES END */
-
-/* Hompage Hero*/
-.hero {
-  margin: 20px;
-  background-color: white;
-  font-size: 20px;
-  color: blue;
-}
-
-/* secondary page hero */
-.hero-secondary {
-  margin: 20px;
-  background-color: black;
-  font-size: 20px;
-  color: red;
-}
-.hero {
-  margin: 20px;
-  font-size: 20px;
-  background-color: white;
-  color: blue;
-}
-
-/* these two colors will override the ones above in .hero */
-.hero-secondary {
-  background-color: black;
-  color: red;
-}
