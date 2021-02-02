@@ -87,7 +87,7 @@ section {
 
 /* HERO STYLES START */
 .hero {
-  background-image: url('../images/hero-bg.jpg');
+  background-image: url('./"assets/hero-bg.jpg'); 
   background-size: cover;
   background-position: center;
   display: flex;
@@ -103,6 +103,7 @@ section {
   color: #fff;
   font-size: 18px;
   line-height: 1.2;
+  
 }
 
 .hero-cta h2 {
